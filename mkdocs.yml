@@ -1,0 +1,25 @@
+site_name: Rage Against Deep Learning
+site_url: http://jonqkim.github.io/
+site_author: Jongkyu Kim
+
+# markdown_extensions:
+#   - smarty
+
+theme:
+  name: 'material'
+  # language: kr
+
+markdown_extensions:
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+
+extra:
+  disqus: jongkyu-kim
+
+use_directory_urls: false
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
